@@ -1,0 +1,109 @@
+/* Apply a background color to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the image and text vertically and horizontally */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* This sets the container height to 100% of the viewport height */
+}
+
+/* Rest of your existing CSS styles */
+
+
+/* Style the header */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Style the main content */
+p {
+    text-align: center;
+    font-style: italic;
+}
+
+/* Style the heart emoji and the quote */
+.heart {
+    color: red;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.quote {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+}
+
+/* Style the opportunity list */
+h3 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    margin-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Style the work experience table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style the contact form */
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+label,
+input,
+textarea {
+    display: block;
+    margin: 10px auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
